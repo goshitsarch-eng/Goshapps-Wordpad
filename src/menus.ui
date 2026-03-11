@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="menubar">
+    <!-- File Menu -->
+    <submenu>
+      <attribute name="label" translatable="yes">_File</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_New</attribute>
+          <attribute name="action">win.new</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Open...</attribute>
+          <attribute name="action">win.open</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Save</attribute>
+          <attribute name="action">win.save</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Save _As...</attribute>
+          <attribute name="action">win.save-as</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Print...</attribute>
+          <attribute name="action">win.print</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Print Pre_view</attribute>
+          <attribute name="action">win.print-preview</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Page Set_up...</attribute>
+          <attribute name="action">win.page-setup</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">Sen_d...</attribute>
+          <attribute name="action">win.send</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">E_xit</attribute>
+          <attribute name="action">win.quit</attribute>
+        </item>
+      </section>
+    </submenu>
+
+    <!-- Edit Menu -->
+    <submenu>
+      <attribute name="label" translatable="yes">_Edit</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Undo</attribute>
+          <attribute name="action">win.undo</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">Cu_t</attribute>
+          <attribute name="action">win.cut</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Copy</attribute>
+          <attribute name="action">win.copy</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Paste</attribute>
+          <attribute name="action">win.paste</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Paste _Special...</attribute>
+          <attribute name="action">win.paste-special</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Clea_r</attribute>
+          <attribute name="action">win.clear</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Find...</attribute>
+          <attribute name="action">win.find</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Find _Next</attribute>
+          <attribute name="action">win.find-next</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Replace...</attribute>
+          <attribute name="action">win.replace</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">Select _All</attribute>
+          <attribute name="action">win.select-all</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Links...</attribute>
+          <attribute name="action">win.links</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">Object _Properties</attribute>
+          <attribute name="action">win.object-properties</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Object</attribute>
+          <attribute name="action">win.object</attribute>
+        </item>
+      </section>
+    </submenu>
+
+    <!-- View Menu -->
+    <submenu>
+      <attribute name="label" translatable="yes">_View</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Toolbar</attribute>
+          <attribute name="action">win.show-toolbar</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Format Bar</attribute>
+          <attribute name="action">win.show-format-bar</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Ruler</attribute>
+          <attribute name="action">win.show-ruler</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Status Bar</attribute>
+          <attribute name="action">win.show-status-bar</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Options...</attribute>
+          <attribute name="action">win.options</attribute>
+        </item>
+      </section>
+    </submenu>
+
+    <!-- Insert Menu -->
+    <submenu>
+      <attribute name="label" translatable="yes">_Insert</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Date and Time...</attribute>
+          <attribute name="action">win.insert-datetime</attribute>
+        </item>
+      </section>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Object...</attribute>
+          <attribute name="action">win.insert-object</attribute>
+        </item>
+      </section>
+    </submenu>
+
+    <!-- Format Menu -->
+    <submenu>
+      <attribute name="label" translatable="yes">F_ormat</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_Font...</attribute>
+          <attribute name="action">win.font</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Bullet Style</attribute>
+          <attribute name="action">win.toggle-bullets</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Paragraph...</attribute>
+          <attribute name="action">win.paragraph</attribute>
+        </item>
+        <item>
+          <attribute name="label" translatable="yes">_Tabs...</attribute>
+          <attribute name="action">win.tabs</attribute>
+        </item>
+      </section>
+    </submenu>
+
+    <!-- Help Menu -->
+    <submenu>
+      <attribute name="label" translatable="yes">_Help</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">_About WordPad</attribute>
+          <attribute name="action">win.about</attribute>
+        </item>
+      </section>
+    </submenu>
+  </menu>
+</interface>
